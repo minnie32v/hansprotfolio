@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FamilyMart APP 改版重構專案 — Han 鄭如涵</title>
+<meta name="description" content="從9個獨立商流、9台獨立購物車，到收斂為一致體驗與設計規範的全家APP改版案例。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo">HAN<span>.</span></a>
+    <div class="nav-links">
+      <a href="index.html#work">WORK</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="index.html#contact">CONTACT</a>
+    </div>
+  </div>
+</nav>
+
+<header class="case-hero">
+  <div class="wrap">
+    <a href="index.html" class="back-link">← 回到作品列表</a>
+    <span class="eyebrow">CASE STUDY — 生活服務類 APP</span>
+    <h1>FamilyMart APP 改版重構專案</h1>
+    <p class="lede" style="color:var(--slate-soft); max-width:56ch;">從9個各自獨立維運的商流、9台獨立購物車，到收斂成一致、清楚的使用者體驗。歷時一年多，橫跨消費者研究、專家評估、5版設計迭代與6家廠商協作開發。</p>
+    <div class="case-meta">
+      <div class="stat"><div class="num">9 → 1</div><div class="label">商流整併</div></div>
+      <div class="stat"><div class="num">A–E</div><div class="label">五版設計迭代</div></div>
+      <div class="stat"><div class="num">6</div><div class="label">合作開發廠商</div></div>
+      <div class="stat"><div class="num">5 人</div><div class="label">設計團隊規模</div></div>
+      <div class="stat"><div class="num">1年+</div><div class="label">專案週期</div></div>
+    </div>
+    <div class="case-hero-media">
+      <img src="images/FM-mockup.png" alt="FamilyMart APP 改版介面 Mockup" loading="lazy">
+    </div>
+  </div>
+</header>
+
+<div class="wrap case-body">
+
+  <nav class="case-rail" id="caseRail">
+    <a href="#overview" class="n-link"><span class="n">01</span> 專案概述</a>
+    <a href="#role" class="n-link"><span class="n">02</span> 角色與貢獻</a>
+    <a href="#goals" class="n-link"><span class="n">03</span> 策略目標</a>
+    <a href="#pain" class="n-link"><span class="n">04</span> 現況痛點</a>
+    <a href="#persona" class="n-link"><span class="n">05</span> 使用者分析</a>
+    <a href="#journey" class="n-link"><span class="n">06</span> 設計歷程</a>
+    <a href="#interview" class="n-link"><span class="n">07</span> 訪談歷程</a>
+    <a href="#stakeholder" class="n-link"><span class="n">08</span> 利害關係人訪談</a>
+    <a href="#direction" class="n-link"><span class="n">09</span> 優化方向</a>
+    <a href="#system" class="n-link"><span class="n">10</span> 設計系統</a>
+    <a href="#uiflow" class="n-link"><span class="n">11</span> UI Flow</a>
+    <a href="#takeaway" class="n-link"><span class="n">12</span> Take Away</a>
+  </nav>
+
+  <div class="case-sections">
+
+    <!-- 01 專案概述 -->
+    <section class="case-section" id="overview">
+      <span class="num">01 / 12</span>
+      <h2>專案概述</h2>
+      <h3>背景</h3>
+      <p>2023年，公司高層基於APP整體體驗不佳、線上營收成長停滯、用戶黏著度不足等問題，提出全面改版的目標，期望透過重新設計提升消費者體驗與商業表現。</p>
+      <h3>規模</h3>
+      <ul>
+        <li>專案橫跨9個商流系統、6家外包開發廠商，歷時一年多</li>
+        <li>設計團隊共5位設計師，依商流分工負責細部功能改版</li>
+        <li>我負責大方向的首頁改版與整體設計風格主導，並同步建立跨商流的設計規範</li>
+      </ul>
+    </section>
+
+    <!-- 02 角色與貢獻 -->
+    <section class="case-section" id="role">
+      <span class="num">02 / 12</span>
+      <h2>我的角色與貢獻</h2>
+      <p class="lede">專案最初加入、也是團隊主力的設計師，全程參與超過一年，從專案啟動到全新版本定案。負責首頁大方向改版與整體設計風格，各商流細部功能則由團隊其他設計師分工負責。</p>
+
+      <details class="toggle" open>
+        <summary>專案定位</summary>
+        <div class="toggle-body">
+          <ul>
+            <li>專案最初加入的設計師，團隊主力設計師（團隊共5位設計師）</li>
+            <li>全程參與超過一年，從專案啟動到全新版本定案</li>
+            <li>隨專案規模擴大，向主管申請並主導設計人力擴編</li>
+            <li>負責首頁大方向改版與整體設計風格，各商流細部功能則由團隊其他設計師分工負責</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="toggle">
+        <summary>研究階段</summary>
+        <div class="toggle-body">
+          <ul>
+            <li>審核外部研究顧問悠勢數位提供的初版訪綱，與主管討論調整方向後定稿</li>
+            <li>與設計團隊、悠勢共同執行焦點團體訪談、一對一訪談、店長訪談</li>
+            <li>邀請悠勢針對現行版本與新設計進行外部專家經驗法則評估</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="toggle">
+        <summary>設計階段</summary>
+        <div class="toggle-body">
+          <ul>
+            <li>主導首頁改版的設計風格與介面產出</li>
+            <li>從訪談結果統整改版方向與重點，設計歷經A~E共五版迭代</li>
+            <li>每版設計整合內部痛點、外部專家評估、消費者訪談、利害關係人訪談意見</li>
+            <li>每個版本與主管、PM、跨部門利害關係人溝通討論，收斂定案</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="toggle">
+        <summary>落地階段</summary>
+        <div class="toggle-body">
+          <ul>
+            <li>定案版本交付6家廠商同步開發</li>
+            <li>主責設計流程相關的廠商溝通；系統串接技術溝通由PM對接</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- 03 策略目標 -->
+    <section class="case-section" id="goals">
+      <span class="num">03 / 12</span>
+      <h2>策略目標</h2>
+      <p class="lede">公司高層在面試招募時，就已明確提出希望改善APP體驗、提高營收與用戶黏著度的期望，這三個面向也成為改版最初的策略骨架。</p>
+      <div class="figure">
+        <img src="images/strategy-goals.png" alt="策略目標：營運面、體驗面、數據面" loading="lazy">
+      </div>
+    </section>
+
+    <!-- 04 現況痛點 -->
+    <section class="case-section" id="pain">
+      <span class="num">04 / 12</span>
+      <h2>現況痛點</h2>
+      <div class="figure-grid">
+        <div class="figure">
+          <img src="images/FM-1.png" alt="資訊架構混雜" loading="lazy">
+          <div class="figure-caption">資訊架構混雜——商流越來越多，消費者看不懂差異，也不知道商品歸屬在哪個入口</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-2.png" alt="營收停滯不前 — 結帳流程" loading="lazy">
+          <div class="figure-caption">結帳便利性不足，跨商流購買需分多次結帳，訂單也分散在各商流無法統一查找</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-3.png" alt="營收停滯不前 — 商品推薦" loading="lazy">
+          <div class="figure-caption">用戶認為商品推薦不精準，無法引起購買慾望</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-4.png" alt="用戶學習成本高 — 介面不一致" loading="lazy">
+          <div class="figure-caption">相同功能在各商流的UI/UX介面不一致，引導性不足，需仰賴店舖人員協助教學</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-5.png" alt="用戶學習成本高 — 搜尋" loading="lazy">
+          <div class="figure-caption">搜尋商品用字須精準，無法模糊搜尋</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-6.png" alt="用戶學習成本高 — 支付" loading="lazy">
+          <div class="figure-caption">不易理解各支付方式差異，且支付入口散落各處</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 使用者分析 -->
+    <section class="case-section" id="persona">
+      <span class="num">05 / 12</span>
+      <h2>使用者分析</h2>
+      <p class="lede">為培養會員與品牌的深度、提升跨售機會，並透過會員擴散行銷，訂定出三種人物誌族群：「全家超好買族群」、「生活超便利族群」、「優惠不錯過族群」。</p>
+      <div class="figure-grid thirds">
+        <div class="figure"><img src="images/FM-7.png" alt="人物誌分析 1" loading="lazy"></div>
+        <div class="figure"><img src="images/FM-8.png" alt="人物誌分析 2" loading="lazy"></div>
+        <div class="figure"><img src="images/FM-9.png" alt="人物誌分析 3" loading="lazy"></div>
+      </div>
+      <div class="figure-grid">
+        <div class="figure"><img src="images/FM-10.png" alt="人物誌族群特性 1" loading="lazy"></div>
+        <div class="figure"><img src="images/FM-11.png" alt="人物誌族群特性 2" loading="lazy"></div>
+      </div>
+    </section>
+
+    <!-- 06 設計歷程 -->
+    <section class="case-section" id="journey">
+      <span class="num">06 / 12</span>
+      <h2>設計歷程</h2>
+      <p class="lede">改版設計並非一次到位，而是歷經內部痛點統整、外部專家評估、消費者訪談、內部利害關係人訪談等多輪驗證，逐步收斂出最終方案。</p>
+      <div class="figure">
+        <img src="images/design-journey.png" alt="設計歷程：專案開始 → A版 → B版 → C/D版 → E版" loading="lazy">
+        <div class="figure-caption">專案開始 → A版設計（內部統整痛點、使用者研究分析）→ B版設計（外部專家經驗法則評估）→ C版／D版設計（消費者焦點團體、一對一訪談）→ E版設計（公司內部利害關係人訪談）</div>
+      </div>
+    </section>
+
+    <!-- 07 訪談歷程 -->
+    <section class="case-section" id="interview">
+      <span class="num">07 / 12</span>
+      <h2>訪談歷程</h2>
+      <div class="three-col">
+        <div class="figure">
+          <img src="images/FM-15.png" alt="焦點團體、一對一訪談" loading="lazy">
+          <div class="figure-caption">焦點團體、一對一訪談——透過消費者問卷，找出適合的訪談對象</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-16.png" alt="店長訪談" loading="lazy">
+          <div class="figure-caption">店長訪談——蒐集店長在店鋪經營時的消費者回饋</div>
+        </div>
+        <div class="figure">
+          <img src="images/FM-17.png" alt="利害關係人訪談" loading="lazy">
+          <div class="figure-caption">利害關係人訪談——綜合用戶觀點與回饋，與內部利害關係人溝通統整可行方案</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 利害關係人訪談 -->
+    <section class="case-section" id="stakeholder">
+      <span class="num">08 / 12</span>
+      <h2>利害關係人訪談</h2>
+      <p class="lede">綜合消費者、店長、專家三方意見，我們發現用戶對APP的觀感呈現兩極——「是蜜糖還是毒藥」，這也成為後續C版、D版設計聚焦解決的核心命題。</p>
+      <div class="figure">
+        <img src="images/stakeholder-c.png" alt="用戶心聲文氏圖與C版設計" loading="lazy">
+      </div>
+      <div class="figure">
+        <img src="images/d-version.png" alt="D版設計" loading="lazy">
+      </div>
+      <p>C版聚焦商城購物體驗——強化店舖搜尋、地圖趣與商城獨立入口；D版聚焦社群內容導購——強化推廣行銷、社群經營與購物車曝光。兩版分別驗證不同的轉換路徑後，最終整合兩版優勢，收斂為E版定案設計。</p>
+    </section>
+
+    <!-- 09 優化方向 -->
+    <section class="case-section" id="direction">
+      <span class="num">09 / 12</span>
+      <h2>優化方向</h2>
+      <details class="toggle" open>
+        <summary>1. 如何讓用戶清楚知道要去哪裡找商品？</summary>
+        <div class="toggle-body"><p>去商流化，整合一個商城入口。</p></div>
+      </details>
+      <details class="toggle">
+        <summary>2. 如何讓用戶快速結帳、方便查找訂單紀錄？</summary>
+        <div class="toggle-body"><p>整併訂單系統，一個購物車快速結帳。</p></div>
+      </details>
+      <details class="toggle">
+        <summary>3. 如何再提高顧客的APP使用頻率？</summary>
+        <div class="toggle-body">
+          <ul>
+            <li>制定語言一致的設計系統</li>
+            <li>凸顯會員常用功能：會員點數、隨買兌換、支付、酷碰券</li>
+            <li>完善商品搜尋功能，運用模糊搜尋、新增熱門關鍵字、商品推薦</li>
+            <li>整合一個支付入口</li>
+          </ul>
+        </div>
+      </details>
+      <details class="toggle">
+        <summary>4. 如何提高用戶黏著度？</summary>
+        <div class="toggle-body">
+          <ul>
+            <li>個人化訊息通知，提醒會員個人相關重要訊息</li>
+            <li>提升商品推薦精準度，運用個人化推薦提高下單意願</li>
+            <li>拓展點數多元應用，改善過於侷限的使用情境</li>
+          </ul>
+        </div>
+      </details>
+      <div class="figure" style="margin-top:1.6rem;">
+        <img src="images/FM-21.png" alt="優化方向總覽" loading="lazy">
+      </div>
+    </section>
+
+    <!-- 10 設計系統 -->
+    <section class="case-section" id="system">
+      <span class="num">10 / 12</span>
+      <h2>設計系統</h2>
+      <p class="lede">改版前，APP由6家廠商各自開發維運，介面風格、互動邏輯毫無統一規範，使用者每次點開不同功能，都得重新適應一次操作邏輯，學習成本極高。</p>
+
+      <div class="two-col">
+        <div class="info-card">
+          <h4>背景</h4>
+          <ul>
+            <li>6家廠商各自開發維運，介面風格、互動邏輯無統一規範</li>
+            <li>使用者每次切換功能，都需重新適應操作邏輯，學習成本高</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h4>執行</h4>
+          <ul>
+            <li>於改版設計進行同時，花費約1個月建立基礎設計規範</li>
+            <li>規範內容涵蓋元件樣式、互動邏輯、視覺層級</li>
+            <li>規範定案後交付各外包廠商依循使用</li>
+            <li>後續每次版本迭代時持續拉齊、更新規範</li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-card" style="margin-top:1.4rem;">
+        <h4>成效</h4>
+        <ul>
+          <li>確保新版APP即使由多家廠商分別開發，體驗仍維持一致性</li>
+          <li>降低使用者跨功能切換的學習成本</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 11 UI Flow -->
+    <section class="case-section" id="uiflow">
+      <span class="num">11 / 12</span>
+      <h2>UI Flow</h2>
+      <div class="figure-grid">
+        <div class="figure"><img src="images/FM-22.png" alt="UI Flow 1" loading="lazy"></div>
+        <div class="figure"><img src="images/FM-23.png" alt="UI Flow 2" loading="lazy"></div>
+        <div class="figure"><img src="images/FM-24.png" alt="UI Flow 3" loading="lazy"></div>
+        <div class="figure"><img src="images/FM-25.png" alt="UI Flow 4" loading="lazy"></div>
+      </div>
+    </section>
+
+    <!-- 12 Take Away -->
+    <section class="case-section" id="takeaway">
+      <span class="num">12 / 12</span>
+      <h2>Take Away</h2>
+      <p class="lede">設計理想跟組織現實之間，總會有落差。以下誠實記錄哪些優化方向沒有在這一階段實現，以及原因。</p>
+
+      <div class="takeaway-item">
+        <div class="figure"><img src="images/FM-26.png" alt="簡化結帳流程" loading="lazy"></div>
+        <h4>簡化結帳流程</h4>
+        <p>兌換酷碰券時，若使用多張券必須重複進出操作；結帳同時使用酷碰券、我的商品兌換、支付時，要點擊三個地方，造成流程繁瑣。</p>
+        <span class="reason-tag">未實現原因：三方開發廠商不同，系統串接上有困難度</span>
+      </div>
+      <div class="takeaway-item">
+        <div class="figure"><img src="images/FM-27.png" alt="商品分類方式不明確" loading="lazy"></div>
+        <h4>商品分類方式不明確</h4>
+        <p>商品分類方式不明確，理想上應依照品類區分並去商流化。</p>
+        <span class="reason-tag">未實現原因：各商流因應內部組織架構獨立維運，業務轉換上有難度，故無法去商流化並以品類區分</span>
+      </div>
+      <div class="takeaway-item">
+        <div class="figure"><img src="images/FM-28.png" alt="統一活動入口" loading="lazy"></div>
+        <h4>統一活動入口</h4>
+        <p>統一活動入口為挑戰趣，聚合人流，並凸顯在首頁。</p>
+        <span class="reason-tag">未實現原因：各商流因應內部組織架構獨立維運，故無法整合入口</span>
+      </div>
+      <div class="takeaway-item">
+        <div class="figure"><img src="images/FM-29.png" alt="整合一個支付" loading="lazy"></div>
+        <h4>整合一個支付</h4>
+        <span class="reason-tag">未實現原因：各商流因應內部組織架構獨立維運，故無法整併</span>
+      </div>
+      <div class="takeaway-item">
+        <div class="figure"><img src="images/FM-30.png" alt="地圖趣" loading="lazy"></div>
+        <h4>地圖趣</h4>
+        <p>在首頁凸顯使用率較高的地圖趣功能，結合店鋪查詢，讓用戶更方便尋找附近限定商品的店鋪、用餐區。</p>
+        <span class="reason-tag">未實現原因：未規劃在此階段優化（其他功能優化層級更重要）</span>
+      </div>
+      <div class="takeaway-item">
+        <div class="figure"><img src="images/FM-31.png" alt="通知中心" loading="lazy"></div>
+        <h4>通知中心</h4>
+        <p>通知中心有詳細分類。</p>
+        <span class="reason-tag">未實現原因：未規劃在此階段優化（其他功能優化層級更重要）</span>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<div class="case-nextprev wrap">
+  <p>想聊聊這個案例的設計判斷，或是討論其他機會？</p>
+  <a href="index.html#contact" class="btn primary">與我聯繫 <span class="arrow">→</span></a>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-bottom">
+      <span>© 2026 鄭如涵 Han Cheng</span>
+      <span>Taipei, Taiwan</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
