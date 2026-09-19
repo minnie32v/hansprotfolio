@@ -8,6 +8,11 @@
 .slider-for{ width:48%; margin:0 auto;}
 .slider-for .slick-list{ width:100%; margin:0 auto; border-radius: 16px;}
 
+/* 輪播圖片 */
+.slider-for-bn{ width:80%; margin:0 auto;}
+.slider-for-bn .slick-list{ width:100%; margin:0 auto; border-radius: 16px;}
+
+
 
 /* 圓點 線 */
 .slick-dots li{ width:12px; height:12px; margin:0 10px;}
