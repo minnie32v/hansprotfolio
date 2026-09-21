@@ -196,7 +196,7 @@ hr{
 /* ---------- 自我介紹 ---------- */
 
 .index .my-pic{
-  width: 32%;
+  width: 20%;
   padding-top: 40px;
   padding-right: 40px;
   
@@ -205,10 +205,10 @@ hr{
   content: '';
   display: inline-block;
   position: absolute;
-  bottom: -4%;
+  bottom: 9%;
   right: 6%;
   width: 88%;
-  height: 88%;
+  height: 70%;
   border-radius: 16px;
   background-color: #bed1c6;
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
@@ -220,7 +220,7 @@ hr{
 }
 
 .index .my-text{
-  width: 64%;
+  width: 76%;
   padding-top: 40px;
 }
 .index .my-text h5{
