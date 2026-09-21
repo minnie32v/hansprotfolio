@@ -1,7 +1,7 @@
 /* ---------- 自我介紹 ---------- */
 
 .my-pic{
-  width: 28%;
+  width: 20%;
   padding-top: 80px;
   padding-right: 40px;
   
@@ -10,10 +10,10 @@
   content: '';
   display: inline-block;
   position: absolute;
-  bottom: 26%;
-  right: 4%;
+  bottom: 46%;
+  right: 8%;
   width: 88%;
-  height: 56%;
+  height: 40%;
   border-radius: 16px;
   background-color: #bed1c6;
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
@@ -24,7 +24,7 @@
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
 }
 .my-text{
-  width: 70%;
+  width: 78%;
   padding-top: 80px;
 }
 .my-text h5{
@@ -155,7 +155,7 @@
 .time-line .dates-wrap .date .date-content {
   visibility: hidden;
   position: absolute;
-  width: 800px;
+  width: 900px;
   height: 410px;
   bottom: 100%;
   margin-bottom: 40px;
